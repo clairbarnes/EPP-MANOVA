@@ -1,6 +1,7 @@
 numpy
 xarray
 netcdf4
+proj4
 cartopy
 matplotlib
 warnings
