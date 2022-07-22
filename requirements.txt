@@ -2,7 +2,7 @@ matplotlib
 numpy
 xarray
 netcdf4
-cartopy
-warnings
 proj
 geos
+cartopy
+warnings
