@@ -1,0 +1,7 @@
+matplotlib
+numpy
+xarray
+netcdf4
+re
+cartopy
+warnings
