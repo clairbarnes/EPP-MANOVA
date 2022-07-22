@@ -1,8 +1,6 @@
-matplotlib
 numpy
 xarray
 netcdf4
-proj>=9.0.1
-geos>=3.7.2
 cartopy
+matplotlib
 warnings
