@@ -1,0 +1,11 @@
+name: epp-manova
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - cartopy
+  - xarray
+  - netcdf4
+  - matplotlib
+  - ipykernel
+prefix: /usr/local/bin/Anaconda3/envs/epp-manova
