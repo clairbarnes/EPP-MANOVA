@@ -2,6 +2,8 @@
 import xarray as xr
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
+import re
 import cartopy.crs as ccrs
 
 # define projection to be used in plotting
@@ -32,7 +34,7 @@ def reshape_to_map(M, to_map, new_labels = None):
     else:                     # M is a matrix
     
         # expand map array to accommodate the extra dimension; if no labels are provided, number them
-        if new_labels is None: new_labels = {"n" : []}
+        if new_labels is None: new_labels = {"n" : [list(range(M.shape[0]))]}
         map_array = map_array.expand_dims(new_labels).copy()
         
         # assign values from matrix to non-empty cells in target map
